@@ -1,0 +1,35 @@
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.01, "error": null, "timestamp": "2026-11-19T13:40:56.349307+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.023, "error": null, "timestamp": "2026-11-19T13:40:56.349336+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 1.841, "error": null, "timestamp": "2026-11-19T13:40:56.351182+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.011, "error": null, "timestamp": "2026-11-19T13:40:56.351203+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.0, "error": null, "timestamp": "2026-11-19T13:40:56.351207+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.009, "error": null, "timestamp": "2026-11-19T13:44:12.306516+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.019, "error": null, "timestamp": "2026-11-19T13:44:12.306540+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 1.727, "error": null, "timestamp": "2026-11-19T13:44:12.308272+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.015, "error": null, "timestamp": "2026-11-19T13:44:12.308296+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.0, "error": null, "timestamp": "2026-11-19T13:44:12.308300+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.013, "error": null, "timestamp": "2026-11-19T13:52:08.348598+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.026, "error": null, "timestamp": "2026-11-19T13:52:08.348634+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 2.691, "error": null, "timestamp": "2026-11-19T13:52:08.351333+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.021, "error": null, "timestamp": "2026-11-19T13:52:08.351369+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.0, "error": null, "timestamp": "2026-11-19T13:52:08.351374+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.009, "error": null, "timestamp": "2026-11-19T13:52:42.699823+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.018, "error": null, "timestamp": "2026-11-19T13:52:42.699846+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 1.789, "error": null, "timestamp": "2026-11-19T13:52:42.701641+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.02, "error": null, "timestamp": "2026-11-19T13:52:42.701674+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.0, "error": null, "timestamp": "2026-11-19T13:52:42.701678+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.011, "error": null, "timestamp": "2026-11-19T14:03:01.920022+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.03, "error": null, "timestamp": "2026-11-19T14:03:01.920380+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 2.003, "error": null, "timestamp": "2026-11-19T14:03:01.922389+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.016, "error": null, "timestamp": "2026-11-19T14:03:01.923404+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.001, "error": null, "timestamp": "2026-11-19T14:03:01.924078+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.012, "error": null, "timestamp": "2026-11-19T14:04:22.354571+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.03, "error": null, "timestamp": "2026-11-19T14:04:22.354886+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 1.991, "error": null, "timestamp": "2026-11-19T14:04:22.356883+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.016, "error": null, "timestamp": "2026-11-19T14:04:22.357810+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.001, "error": null, "timestamp": "2026-11-19T14:04:22.358455+00:00"}
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.01, "error": null, "timestamp": "2026-11-19T14:16:22.399456+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.025, "error": null, "timestamp": "2026-11-19T14:16:22.399753+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 1.827, "error": null, "timestamp": "2026-11-19T14:16:22.401585+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.012, "error": null, "timestamp": "2026-11-19T14:16:22.402452+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.001, "error": null, "timestamp": "2026-11-19T14:16:22.403100+00:00"}

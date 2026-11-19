@@ -1,0 +1,95 @@
+{
+  "dataset_size": 40,
+  "classification": {
+    "accuracy": 0.85,
+    "macro_f1": 0.8578431372549019,
+    "per_class": {
+      "account_access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      },
+      "billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      },
+      "other": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "support": 3
+      },
+      "privacy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "refund": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "support": 10
+      },
+      "shipping": {
+        "precision": 1.0,
+        "recall": 0.7,
+        "f1": 0.8235294117647058,
+        "support": 10
+      }
+    },
+    "priority_accuracy": 1.0
+  },
+  "retrieval": {
+    "hit_at_1": 0.7,
+    "hit_at_3": 0.775
+  },
+  "escalation": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1": 0.7499999999999999
+  },
+  "scenarios": {
+    "count": 12,
+    "passed": 12,
+    "safety_gate_compliance": 1.0,
+    "citation_correctness": 1.0
+  },
+  "latency": {
+    "guardrails": {
+      "mean_ms": 0.0143,
+      "p95_ms": 0.02,
+      "calls": 40
+    },
+    "classify": {
+      "mean_ms": 0.035375000000000004,
+      "p95_ms": 0.051,
+      "calls": 40
+    },
+    "retrieve_policy": {
+      "mean_ms": 2.174825,
+      "p95_ms": 2.988,
+      "calls": 40
+    },
+    "resolution": {
+      "mean_ms": 0.016475,
+      "p95_ms": 0.025,
+      "calls": 40
+    },
+    "approval_gate": {
+      "mean_ms": 0.001,
+      "p95_ms": 0.001,
+      "calls": 40
+    }
+  },
+  "tool_calls": {
+    "classify_ticket": 40,
+    "search_policy": 40,
+    "draft_reply": 40,
+    "interrupt": 40
+  },
+  "notes": "Rule-based mock evaluation on synthetic data; these measurements do not establish real-world generalization. Groundedness is assessed by citation provenance, not semantic entailment."
+}

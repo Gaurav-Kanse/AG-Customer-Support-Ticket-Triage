@@ -1,0 +1,10 @@
+{"node": "guardrails", "input_summary": "ticket text", "output_summary": "ok", "tool": null, "latency_ms": 0.013, "error": null, "timestamp": "2026-11-19T14:16:22.729400+00:00"}
+{"node": "classify", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "classify_ticket", "latency_ms": 0.032, "error": null, "timestamp": "2026-11-19T14:16:22.729704+00:00"}
+{"node": "retrieve_policy", "input_summary": "sanitized ticket", "output_summary": "ok", "tool": "search_policy", "latency_ms": 2.202, "error": null, "timestamp": "2026-11-19T14:16:22.731913+00:00"}
+{"node": "resolution", "input_summary": "policy evidence", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.014, "error": null, "timestamp": "2026-11-19T14:16:22.732837+00:00"}
+{"node": "approval_gate", "input_summary": "await human approval", "output_summary": "ok", "tool": "interrupt", "latency_ms": 0.001, "error": null, "timestamp": "2026-11-19T14:16:22.733475+00:00"}
+{"node": "approval_rejected", "input_summary": "human rejected draft", "output_summary": "ok", "tool": "approval_gate", "latency_ms": 0, "error": null, "timestamp": "2026-11-19T14:16:22.733615+00:00"}
+{"node": "resolution", "input_summary": "redraft after rejection", "output_summary": "ok", "tool": "draft_reply", "latency_ms": 0.014, "error": null, "timestamp": "2026-11-19T14:16:22.733634+00:00"}
+{"node": "approval_rejected", "input_summary": "human rejected draft", "output_summary": "ok", "tool": "approval_gate", "latency_ms": 0, "error": null, "timestamp": "2026-11-19T14:16:22.733638+00:00"}
+{"node": "execute_action", "input_summary": "escalate", "output_summary": "ok", "tool": "helpdesk_api", "latency_ms": 0.002, "error": null, "timestamp": "2026-11-19T14:16:22.733662+00:00"}
+{"node": "finalize", "input_summary": "audit recorded", "output_summary": "ok", "tool": null, "latency_ms": 0.0, "error": null, "timestamp": "2026-11-19T14:16:22.733665+00:00"}
